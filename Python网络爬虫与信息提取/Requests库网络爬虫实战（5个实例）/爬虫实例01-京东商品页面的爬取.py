@@ -1,5 +1,6 @@
 import requests
 
+
 def getHTMLText(url, kv):
     try:
         r = requests.get(url, headers=kv, timeout=30)
@@ -9,8 +10,8 @@ def getHTMLText(url, kv):
     except:
         return "产生异常"
 
+
 if __name__ == "__main__":
     url = 'https://item.jd.com/10023383342779.html'
-    kv = {'user-agent':'Mozilla/5.0'}
+    kv = {'user-agent': 'Mozilla/5.0'}
     print(getHTMLText(url, kv))
-

@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import requests
+
 
 def getHTMLText(url):
     try:
@@ -8,6 +11,8 @@ def getHTMLText(url):
         return r.text
     except:
         return "产生异常"
+
+
 if __name__ == "__main__":
     url = 'http://www.ntbgy.xyz'
     print(getHTMLText(url))
