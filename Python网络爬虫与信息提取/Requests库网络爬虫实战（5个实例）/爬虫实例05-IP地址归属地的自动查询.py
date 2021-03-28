@@ -17,4 +17,4 @@ if __name__ == "__main__":
     url = 'https://m.ip138.com/iplookup.asp?ip='
     ip = '202.204.80.112'
     浏览器 = {'user-agent': 'Mozilla/5.0'}
-    print(getHTMLText(url+ip, 浏览器))
+    print(getHTMLText(url + ip, 浏览器))
