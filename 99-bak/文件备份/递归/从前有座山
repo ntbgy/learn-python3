@@ -1,0 +1,15 @@
+# 从前有座山.py
+# /usr/bin/python3
+# -*- coding: utf-8 -*-
+import time
+
+
+def cqyzs():
+    print("从前有座山，山上有座庙，庙里有个老和尚在讲故事，老和尚讲的故事是...")
+    time.sleep(1)
+    cqyzs()
+
+
+cqyzs()
+
+# 这就是递归！
